@@ -1,0 +1,23 @@
+Source: libcloud
+Section: python
+Priority: optional
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Soren Hansen <soren@ubuntu.com>
+Build-Depends: debhelper (>> 8.0.0), python (>= 2.7)
+Standards-Version: 3.9.2
+X-Python-Version: 2.7
+Homepage: http://libcloud.org/
+
+Package: python-libcloud
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: unified Python interface into the cloud
+ libcloud is a pure Python client library for interacting with many of
+ the popular cloud server providers. It was created to make it easy for
+ developers to build products that work between any of the services that
+ it supports.
+ .
+ libcloud was originally created by the folks over at Cloudkick, but has
+ since grown into an independent free software project licensed under
+ the Apache License (2.0).
+

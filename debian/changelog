@@ -1,0 +1,85 @@
+libcloud (0.13.2-0xba1~precise1) precise; urgency=low
+
+  * update package to 0.13.2 for precise
+
+ -- Xavier Barbosa <clint.northwood@gmail.com>  Tue, 03 Dec 2013 10:15:02 +0000
+
+libcloud (0.12.1-1precise) precise; urgency=low
+
+  * update package for salt PPA
+
+ -- Sean Channel <pentabular@gmail.com>  Thu, 7 Mar 2013 16:53:02 -0800
+
+libcloud (0.11.4-1lucid1) lucid; urgency=low
+
+  * package for salt PPA
+  * force python depends down to 2.6.5
+
+ -- Sean Channel <pentabular@gmail.com>  Fri, 21 Dec 2012 11:19:02 -0700
+
+libcloud (0.5.0-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * [SECURITY] Fix "CVE-2012-3446: MITM vulnerability in TLS/SSL certificates
+    verification": add patch
+    0001-Fix-hostname-validation-in-the-SSL-verification-code.patch
+    taken from upstream git.
+    (Closes: #683927)
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 19 Aug 2012 16:24:16 +0200
+
+libcloud (0.5.0-1) unstable; urgency=low
+
+  * New upstream release (Closes: #598463)
+  * Make myself Uploader instead of Maintainer and set DPMT as the
+    maintainer.
+  * Adjust debian/watch now that libcloud is a toplevel Apache project.
+  * Remove dependency on zope.interface (dropped upstream).
+  * Convert to debhelper 7 and dh_python2.
+  * Bumped Standards-Version to 3.9.2. No changes needed.
+  * Bump debian/compat to 7.
+  * Drop debian/pycompat.
+  * Use debian/clean instead of overriding dh_auth_clean.
+
+ -- Soren Hansen <soren@ubuntu.com>  Tue, 14 Jun 2011 13:27:50 +0200
+
+libcloud (0.3.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update debian/copyright to reflect libcloud's inclusion into the
+    Apache incubator programme (copyright reassigned to ASF) and to
+    account for the new OpenNEbula driver being copyrighted differently
+    than the bulk of the project.
+
+ -- Soren Hansen <soren@ubuntu.com>  Tue, 18 May 2010 07:40:17 +0200
+
+libcloud (0.2.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update Standards-Version to 3.8.4. No changes needed.
+  * Switch to "3.0 (quilt)" source package format.
+  * Dropped get-orig-source target from debian/rules. Upstream has released
+    tarballs.
+  * Added watch file.
+
+ -- Soren Hansen <soren@ubuntu.com>  Fri, 07 May 2010 10:00:57 +0200
+
+libcloud (0.1.1~git20091201-1) unstable; urgency=low
+
+  * New upstream snapshot.
+  * Add dependencies for test suite to Build-Depends.
+
+ -- Soren Hansen <soren@ubuntu.com>  Wed, 02 Dec 2009 11:32:37 +0100
+
+libcloud (0.1.1~git20091125-1) UNRELEASED; urgency=low
+
+  * New upstream release
+  * Run test suite at build time.
+
+ -- Soren Hansen <soren@ubuntu.com>  Wed, 25 Nov 2009 10:43:15 +0100
+
+libcloud (0.1.1~git20091107-1) unstable; urgency=low
+
+  * Initial upload to Debian. (Closes: #555006)
+
+ -- Soren Hansen <soren@ubuntu.com>  Sat, 07 Nov 2009 22:45:52 +0100
